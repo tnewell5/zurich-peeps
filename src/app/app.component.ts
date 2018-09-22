@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'zurich-peeps';
+  onClickYearButton() {
+    console.log('show data for year');
+  }
 }
