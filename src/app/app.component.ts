@@ -7,7 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'zurich-peeps';
+  displayCountryOfOrigin = false;
   onClickYearButton() {
     console.log('show data for year');
+    this.displayCountryOfOrigin = !this.displayCountryOfOrigin;
   }
 }
