@@ -4025,6 +4025,13 @@ neo-async@^2.5.0:
   version "2.5.2"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.5.2.tgz#489105ce7bc54e709d736b195f82135048c50fcc"
 
+ngx-papaparse@3:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/ngx-papaparse/-/ngx-papaparse-3.0.0.tgz#d7cf20eb33b7766e7cf2dc95b78ce912f5752028"
+  dependencies:
+    papaparse "~4.4.0"
+    tslib "^1.9.0"
+
 nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
@@ -4414,6 +4421,10 @@ p-try@^2.0.0:
 pako@~1.0.2, pako@~1.0.5:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.6.tgz#0101211baa70c4bca4a0f63f2206e97b7dfaf258"
+
+papaparse@~4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/papaparse/-/papaparse-4.4.0.tgz#6bcdbda80873e00cfb0bdcd7a4571c72a9a40168"
 
 parallel-transform@^1.1.0:
   version "1.1.0"
